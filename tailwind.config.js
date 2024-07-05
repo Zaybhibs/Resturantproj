@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {},
       fontFamily:{
-        abc:["Dancing Script",'cursive']
+        abc:["Dancing Script",'cursive'],
+        bcc:["Roboto", 'sans-serif'],
+        cdd:["Playwrite NO", 'cursive']
       }
   },
   plugins: [],

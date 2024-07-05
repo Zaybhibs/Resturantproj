@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaCaretDown, FaCaretUp, FaUser } from "react-icons/fa";
 import Popup from "../components/Popup";
@@ -18,7 +18,10 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex justify-between py-2 px-8 lg:px-20 shadow-sm items-center bg-white">
+      <div
+        data-aos="fade"
+        className="flex justify-between py-2 px-8 lg:px-20  items-center bg-white shadow-lg"
+      >
         <div className=" text-3xl lg:pl-8 font-bold">BiBi</div>
         <div className=" flex justify-center items-center mr-4">
           <ul className="lg:flex gap-7 text-xl items-center font-semibold hidden ">
